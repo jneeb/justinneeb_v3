@@ -1,0 +1,137 @@
+header .logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 30px; }
+  header .logo img {
+    width: 150px; }
+
+.title {
+  margin: 0 10%; }
+  .title h1 {
+    margin: 0;
+    text-align: left; }
+  .title h3 {
+    margin: 0;
+    text-align: left; }
+
+.productImg {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center; }
+  .productImg img {
+    width: 80%; }
+
+.divider {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center; }
+  .divider span {
+    background: black;
+    height: 1px;
+    width: 80%;
+    display: block; }
+
+.sizeWrapper {
+  margin: 0 10%;
+  padding: 10px 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between; }
+  .sizeWrapper h3 {
+    margin: 0; }
+  .sizeWrapper ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding: 0;
+    margin: 0; }
+    .sizeWrapper ul li {
+      display: inline-block;
+      margin: 0 5px; }
+
+.quantityWrapper {
+  margin: 0 10%;
+  padding: 10px 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between; }
+  .quantityWrapper h3 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin: 0; }
+  .quantityWrapper .button {
+    border: 1px solid black;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    padding: 5px 15px; }
+
+.socialLinks {
+  margin: 10px 10%; }
+  .socialLinks ul {
+    margin: 0;
+    padding: 0; }
+    .socialLinks ul li {
+      display: inline-block; }
+      .socialLinks ul li a {
+        text-decoration: none;
+        color: black;
+        font-size: 22px;
+        padding: 0 10px; }
+      .socialLinks ul li .fa-facebook:hover {
+        color: #3b5998; }
+      .socialLinks ul li .fa-twitter:hover {
+        color: #55acee; }
+      .socialLinks ul li .fa-instagram:hover {
+        color: #df3967; }
+      .socialLinks ul li .fa-snapchat-ghost:hover {
+        color: #fffc00; }
+      .socialLinks ul li .fa-linkedin:hover {
+        color: #007bb5; }
+      .socialLinks ul li .fa-youtube-play:hover {
+        color: #bb0000; }
